@@ -15,7 +15,7 @@
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Save Trees</a>
+            <a class="navbar-brand" href="index.html">Save Trees</a>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -31,6 +31,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Nearby.html">Nearby Drives</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="partofus.html">Become a part of us</a>
+                    </li>
                 </ul>
             </div>
             <form class="form-inline my-2 my-lg-0">
@@ -44,23 +47,28 @@
         <h1 class="display-2 text-white">Save Trees Save Life <small class="text-dark">One Tree Many Lives</small></h1>
         <small class="text-white display-6 ">Donate and Join the revolution to make our planet green once again</small>
     </div>
-    <div class="container p-4 text-center">
+    <div class="container p-2">
         <h1 class="display-4">Donate</h1>
     </div>
     <div class="container">
 
-        <div class="input-group px-5 mx-5">
-            <span class="input-group-text">First and last name</span>
-            <input type="text" aria-label="First name" class="form-control">
-            <input type="text" aria-label="Last name" class="form-control">
-          </div>
-          <div class="mb-3 px-5 py-1 mx-5">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <div class="col-md-4 mb-3">
+            <label for="validationDefault01">First name</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name"
+                value="" required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="validationDefault02">Last name</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name"
+                value="" required>
+
+            <label for="exampleFormControlInput1" class="form-label my-1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-          <div class="input-group px-5 mx-5">
-            <span class="input-group-text">$</span>
-            <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Amount</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name"
+                value="$100" required>
         </div>
 
         <div class="py-3 text-center">
